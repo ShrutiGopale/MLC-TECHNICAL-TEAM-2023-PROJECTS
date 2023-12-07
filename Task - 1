@@ -1,0 +1,8 @@
+
+user_name = input("Compiler: Hi there! What's your name? ")
+print("Compiler: Nice to meet you, {}! ".format(user_name))
+
+favorite_language =input("Compiler: What is your favorite programming language? ")
+print("I see you like {}. That's a great choice!".format(favorite_language))
+
+print(" Nice to meet you {one}, I see you like {two}. That's a great choice!".format(one=user_name,two=favorite_language))
